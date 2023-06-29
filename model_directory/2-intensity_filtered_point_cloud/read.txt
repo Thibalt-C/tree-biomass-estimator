@@ -1,0 +1,1 @@
+filtered point cloud should appear in this directory. You will need to open it with CloudCompare and then to follow the instructions to do step 2. At the end, you should export the data on the third folder.

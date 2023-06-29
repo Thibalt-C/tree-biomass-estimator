@@ -1,0 +1,1 @@
+Export your data here after having computed QSM. You can then compare it with your measured data (that you should also put here).

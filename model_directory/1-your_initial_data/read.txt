@@ -1,0 +1,1 @@
+﻿place here your initial point cloud file, it has to be a .las file. Version 1.2 is recommended, in any case the script will re-export the file as a .las 1.2 file.
