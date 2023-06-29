@@ -2,7 +2,7 @@
 
 ## Preamble
 
-This model has been implemented in an environment where only terrestrial laser scanner (TLS) has been used to scan a forest. More details are available on the "report.pdf" file, giving the detailed procedure. All scripts are accessible under CC-BY 3.0 licence, feel free to re-use it for your own projects.
+This model has been implemented in an environment where only terrestrial laser scanner (TLS) has been used to scan a forest. More details are available on the "report.pdf" file, giving the detailed procedure. All scripts are accessible under CC licence, feel free to re-use it for your own projects.
 
 ## Required software
 
