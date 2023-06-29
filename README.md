@@ -6,8 +6,8 @@ This model has been implemented in an environment where only terrestrial laser s
 
 ## Required software
 
-This model has been tested on MacOS 13.2.1 as well as Windows 10 Pro Version 22H2. Both hardwares were working with 64-bit-based processors. \
-Python scripts have been built using Jupyter Notebook 6.5.4, via Anaconda 2.4.2. The environment is using a Python 3.8.16 kernel, and the following packages are used in the scripts:
+This model has been tested on MacOS 13.2.1 / Windows 10 Pro Version 22H2. Both hardwares were working with 64-bit-based processors. \
+Python scripts have been built using Jupyter Notebook 6.5.4 / JupyterLab 3.3.2, via Anaconda 2.4.2 / 2.4.0. The environment is using a Python 3.8.16 / Python 3.9.16 kernel, and the following packages are used in the scripts:
 - numpy
 - matplotlib.pyplot 
 - laspy
