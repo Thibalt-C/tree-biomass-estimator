@@ -27,6 +27,22 @@ The following softwares have been used:
 - 3D Forest 0.51
 - GeoSLAM Hub 6.2.1 (for acquiring TLS data)
 
+## Rapid use
+
+For a rapid use without detailled steps of the processing, you can use the notebook 'functions.ipynb'. It compiles all of the necessary scripts with conveniences such as the possibility to stop plotting for gaining computational time, or auto-selection of the region of interest.
+
+- Compute **intensity_filter(file,slices,ROI)**: _file_ is the name of the file located in the 1-labelled directory, _slices_ is the number of slices created to compute the intensity filtering, _ROI_ is a list of 4 limits of the region of interest (ROI) on the horizontal plane (x,y), it can be replaced by 'auto' to compute the ROI so that it keeps ~95 % of the points;
+- Use **_CloudCompare_** to classify trees and terrain (_CANUPO_ plugin)
+- Compute **DBSCAN_clustering(file,ROIzmin,ROIzmax,eps,min_samples)**: _file_ is the name of the file located in the 3-labelled directory, in 'trees', _ROIzmin_ and _ROIzmax_ are the vertical limits of the slice of the ROI used to find clusters, it should be located at trunk level, _eps_ is the maximal space between two core points of a cluster, _min_samples_ is the minimal number of core points recquired to form a cluster;
+- Use _**3D Forest**_ to perform segmentation of the same file used in the previous function
+- Compute **merging(dist_to_merge,ROIzmin,ROIzmax)**: _dist_to_merge_ is the maximum distance between centroids of clusters obtained from DBSCAN and regions obtained with 3D Forest so that one or several clusters can merge with a region, _ROIzmin_ and _ROIzmax_ have to be the same than in the preivous function;
+- Compute **region_growing(ROI_file,max_distance,ROIzmin,ROIzmax)**:
+- Compute **nearest_nbr_reinforcement()**:
+- Use _**3D Forest**_ to perform single tree analysis and QSM
+- Compute **plot_results()**: 
+
+Note that between each step, it is possible to manually edit the point clouds using a cloud editing software like **_CloudCompare_**.
+
 # Methodology
 
 ## 1 – Acquisition, subsampling and intensity-based filtering
