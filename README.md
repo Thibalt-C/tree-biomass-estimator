@@ -42,11 +42,3 @@ For a rapid use without detailled steps of the processing, you can use the noteb
 - Compute **plot_results()**: 
 
 Note that between each step, it is possible to manually edit the point clouds using a cloud editing software like **_CloudCompare_**.
-
-# Methodology
-
-## 1 – Acquisition, subsampling and intensity-based filtering
-
-## 2 – Ground / Tree separation using CANUPO plugin (CloudCompare)
-
-## 3 – Trunk-level clustering using DBSCAN, and deep-learning-based region growing (DLBRG)
