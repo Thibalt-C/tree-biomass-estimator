@@ -14,9 +14,8 @@ Python scripts have been built using Jupyter Notebook 6.5.4 / JupyterLab 3.3.2, 
 - laspy
 - scikit-learn
 - os (facultative)
-- hdbscan (facultative)
+- hdbscan (facultative, an equivalent module is implemented in scikit-learn 2.3.0 or more recent release)
 - time (facultative)
-- open3d (facultative)
 
 A facultative module means that the script can work without the code using this module, even though it should be better optimized with these extra lines. For example, os module is used for deleting point clouds previously present in a directory to avoid the mixing of several exporting sequences.
 
