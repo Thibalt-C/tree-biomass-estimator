@@ -21,6 +21,7 @@ Python scripts have been built using Jupyter Notebook 6.5.4 / JupyterLab 3.3.2, 
 - datetime
 - hdbscan (facultative, an equivalent module is implemented in scikit-learn 1.3.0 or more recent release)
 - time (facultative)
+- shutil (facultative)
 
 A facultative module means that the script can work without the code using this module, even though it should be better optimized with these extra lines.
 
