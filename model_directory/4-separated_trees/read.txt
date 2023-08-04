@@ -1,1 +1,1 @@
-The second script (3 to 4) will export here the clustered trunk parts, the neural network training set, as well as the final trees.
+The second script (3 to 4) will export here the resulting trees at each part of the process (clustering, co-registration, region growing, reinforcement...), as well as the final trees. 
