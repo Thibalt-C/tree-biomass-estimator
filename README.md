@@ -2,7 +2,7 @@
 
 ## Preamble
 
-This model has been implemented in an environment where only terrestrial laser scanner (TLS) has been used to scan a forest. More details are available on the "report.pdf" file, giving the detailed procedure. All scripts are accessible under CC-BY-NC-SA 4.0 licence, feel free to re-use it for your own projects (please cite the following: Chardon T. (2023). _Semi-automatic estimation of the tree biomass using terrestrial LiDAR data_ (internship report)).
+This model has been implemented in an environment where only terrestrial laser scanner (TLS) has been used to scan a forest. More details are available on the "report.pdf" file, giving the detailed procedure. All scripts and documentation are accessible under CC-BY-NC-SA 4.0 licence, feel free to re-use them for your own projects (please cite the following: Chardon T. (2023). _Semi-automatic estimation of the tree biomass using terrestrial LiDAR data_ (internship report)).
 
 ## Required software
 
